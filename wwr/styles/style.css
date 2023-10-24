@@ -45,7 +45,7 @@ main section {text-align: center;}
 
 main section img {box-sizing: border-box;}
 
-#background {height: 725px; background-color: #0A9396; grid-column: 1/11; grid-row: 4/9;}
+#background {height: 725px; background-color: #005F73; grid-column: 1/11; grid-row: 4/9;}
 
 body {background-color: #E9D8A6;font-family: "Dosis", sans-serif, serif; margin: 0; padding: 0;}
 
