@@ -55,9 +55,9 @@ header {background-color: #0A9396; display: grid; grid-template-columns: 150px a
 
 h2 {margin: 0;}
 
-.book, .join {background-color: #005F73; text-decoration: none; color: #001219; font-size: 18px; padding: 15px 30px; margin-top: 50px; border-radius: 5px;}
+.book, .join, .book_button {background-color: #005F73; text-decoration: none; color: #001219; font-size: 18px; padding: 15px 30px; margin-top: 50px; border-radius: 5px;}
 
-.book:hover, .join:hover {background-color: #E9D8A6; color: #001219}
+.book:hover, .join:hover, .book_button:hover {background-color: #E9D8A6; color: #001219}
 
 .msg {background-color: #0A9396; line-height: 1.5em; padding: 35px; grid-column: 6/10; grid-row: 6/7; box-shadow: 5px 5px 10px #6f7364;}
 
@@ -155,18 +155,18 @@ footer {margin-top: 25px;}
 }
 
 .salmon {
-    grid-column: 1/2; grid-row: 2/3;
+    grid-column: 1/2; grid-row: 2/3; 
 }
 
 .idaho_para {
     grid-column: 2/4; grid-row: 2/3; line-height: 1.5;
-    font-size: 1.5em;
+    font-size: 1.4em; text-align: left; margin-top: 0;
     
     
 }
 
 .headeridaho {
-    grid-column: 1/4; grid-row: 1/2;
+    grid-column: 1/2; grid-row: 1/2; margin: 20px;
 }
 
 .utah {
@@ -175,7 +175,7 @@ footer {margin-top: 25px;}
 }
 
 .headerutah {
-    grid-column: 1/4; grid-row: 1/2;
+    grid-column: 1/2; grid-row: 1/2; margin: 20px;
 }
 
 .desolation {
@@ -186,7 +186,7 @@ footer {margin-top: 25px;}
 
 .utahpara {
     grid-column: 2/4; grid-row: 2/3; line-height: 1.5;
-    font-size: 1.5em;
+    font-size: 1.4em; text-align: left; margin-top: 0%;
 }
 
 .az {
@@ -208,21 +208,16 @@ footer {margin-top: 25px;}
 
 .grand_para {
     grid-column: 1/4; grid-row: 3/4; line-height: 1.5;
-    font-size: 1.5em; margin-top: 30px;
+    font-size: 1.5em; margin-top: 30px; text-align: left;
 }
 
-.book_button {
-    grid-column: 2/3; grid-row: 4/5; 
-    width: 200px;
-    height: 75px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 40px;
-    border-radius: 5px;
-    background-color: #0A9396;
-    font-size: 1.5em;}
+.book_button {    
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
 
-.book_button:hover {
-    background-color: white;
+
+
+.rivers_title {
+    text-align: center; margin: 20px;
 }
