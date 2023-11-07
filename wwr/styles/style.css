@@ -207,7 +207,7 @@ footer {margin-top: 25px;}
 }
 
 .grand_para {
-    grid-column: 1/4; grid-row: 3/4; line-height: 1.5;
+    grid-column: 1/4; grid-row: 3/4; line-height: 1.4;
     font-size: 1.5em; margin-top: 30px; text-align: left;
 }
 
