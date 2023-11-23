@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Russo+One&display=swap');
+
+:root {
+    --primary-color: #3772FF  ;
+    --secondary-color: #FDCA40 ;
+    --accent1-color: #A42212;
+    --accent2-color: #E6E8E6;
+
+--heading-font: "Russo One", san-seif;
+--paragraph-font: "play", san-seif;
+}
+
+body{
+    padding: 30px 30px 20px
+}
+
+.my_logo{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+header{ display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #3772FF;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.header_links{ font-size: large;
+    font-family: var(--heading-font);
+    grid-column: 3/4;
+    text-align: center;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: var(--accent2-color);
+    padding: 10px 20px 10px;
+
+}
+
+.my_logo{
+    grid-column: 1/2;
+    padding-left: 20px;
+}
+
+footer{display: flex; justify-content: space-around; align-items: center;
+    margin-top: 50px;
+    background-color: #FDCA40;
+    font-family: var(--paragraph-font);
+}
+
+.footer_logos{
+    height: 25px;
+    width: 25px;
+}
+
+.socialtags{
+    margin-bottom: 10px;
+    font-family: var(--heading-font);
+}
+
+.red_line{
+    width: 80%;    height: 20px;
+    background-color: #A42212;
+    margin: auto;
+}
+
+
+h1{
+    text-align: center;
+    font-family: var(--heading-font);
+    letter-spacing: .3em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.content{
+    font-family: var(--paragraph-font);
+    font-size: large;
+    line-height: 2em;
+    text-align: left;
+    padding: 40px 40px;
+}
+
+.hero{
+    width: 100%;
+    align-items: center; justify-content: space-around;
+    margin-top: 40px;
+    display: flex;
+    margin-bottom: 40px;
+    
+}
+
+.kit{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.bottom_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.bottom_title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+.map{
+    grid-column: 1/2;
+    max-width: 80%;
+    border: #A42212;
+    background-color: #FDCA40;
+    height: 300px;
+
+}
+
+.middle_text{
+    grid-column: 2/3;
+    margin-top: 0;
+    max-width: fit-content;
+    font-size: large;
+    align-content: center;
+}
+
+.display{
+    grid-column:  3/4;
+    width: auto;
+    align-content: center;
+    padding-left: 70px;
+    height: 300px;
+
+}
+
