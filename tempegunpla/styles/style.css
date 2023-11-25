@@ -27,6 +27,7 @@ header{
     grid-template-rows: 1fr;
     background-color: #3772FF;
     height: 150px;
+    border-style: solid;
     
 }
 
@@ -53,12 +54,17 @@ header img:hover{
     font-family: var(--heading-font);
     grid-column: 3/4;
     text-align: center;
+    align-items: center;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 30px;
     margin-top: auto;
     margin-bottom: auto;
     color: black;
+    background-color: var(--accent2-color);
     padding: 10px 20px 10px;
+    border-style: solid;
+    border-color: var(--accent1-color);
+  
 
 }
 .header-links a:hover{
@@ -79,6 +85,7 @@ footer{
     margin-top: 50px;
     background-color: #FDCA40;
     font-family: var(--paragraph-font);
+    border-style: solid;
 }
 
 footer img{
@@ -124,6 +131,15 @@ body{
     grid-template-columns: 1fr;
 }
 
+.home-grid a{
+    color: black;
+    background-color: var(--secondary-color);
+    font-size: large;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
 .home-grid a:hover{
     background-color: var(--accent2-color);
     color: var(--primary-color)
@@ -133,7 +149,9 @@ body{
     width: 80%;    height: 10px;
     background-color: #A42212;
     margin: auto;
+    border-style: solid;
 }
+
 
 
 h1{
