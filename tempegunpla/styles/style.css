@@ -17,6 +17,17 @@ a{
 }
 
 
+.content{
+    
+    font-family: var(--paragraph-font);
+    font-size: large;
+    line-height: 2em;
+    text-align: left;
+    padding: 40px 40px;
+}
+
+
+
 /*Header*/
 
 
@@ -50,20 +61,22 @@ header img:hover{
 }
 
 .header-links{ 
-    font-size: large;
+  
     font-family: var(--heading-font);
     grid-column: 3/4;
     text-align: center;
     align-items: center;
-    margin-left: auto;
-    margin-right: 30px;
-    margin-top: auto;
-    margin-bottom: auto;
+    align-self: center;
+    margin: 20px;
     color: black;
     background-color: var(--accent2-color);
     padding: 10px 20px 10px;
     border-style: solid;
     border-color: var(--accent1-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
   
 
 }
@@ -73,8 +86,128 @@ header img:hover{
 
 }
 
+nav a{
+    color: var(--accent1-color);
+    padding: 1em;
+    letter-spacing: 1px;
+    font-size: 20px;}
 
 
+/*Home Page*/
+
+body{
+    padding: 15px 30px 30px 30px;
+}
+
+p{
+    margin: 20px;
+    font-size: 1.5em;
+}
+
+
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.home-grid a{
+    color: black;
+    background-color: var(--secondary-color);
+    font-size: large;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.home-grid a:hover{
+    background-color: var(--accent2-color);
+    color: var(--primary-color)
+}
+
+.events-link{
+    margin: 20px 20px;
+}
+
+.guide-link{
+    margin: 20px 20px;
+}
+
+.red-line{
+    width: 80%;    height: 10px;
+    background-color: #A42212;
+    margin: auto;
+    border-style: solid;
+}
+
+
+
+h1{
+    text-align: center;
+    font-family: var(--heading-font);
+    letter-spacing: .3em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.hero{
+    width: 100%;
+    align-items: center; 
+    justify-content: space-around;
+    margin-top: 50px;
+    display: flex;
+    margin-bottom: 40px;
+    
+}
+
+.kit{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+.bottom_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 100%;
+   justify-items: center;
+}
+
+.bottom_title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2em;
+  
+
+}
+
+.map{
+    grid-column: 1/2;
+    max-width: 100%;
+    height: 350px;
+
+}
+
+
+
+.middle_text{
+    grid-column: 2/3;
+    margin-top: 0;
+    max-width: fit-content;
+    font-size: large;
+    align-content: center;
+    font-size: 1.5em;
+}
+
+.display{
+    grid-column:  3/4;
+   justify-content: center;
+    height: 350px;
+
+}
 
 /*footer*/
 
@@ -86,6 +219,7 @@ footer{
     background-color: #FDCA40;
     font-family: var(--paragraph-font);
     border-style: solid;
+    width: 100%;
 }
 
 footer img{
@@ -111,122 +245,3 @@ footer img:hover{
     margin-bottom: 10px;
     font-family: var(--heading-font)
 }
-
-
-
-/*Home Page*/
-
-.content{
-    max-width: 1600px;
-}
-
-body{
-    padding: 15px 30px 30px 30px;
-}
-
-
-
-.home-grid{
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-.home-grid a{
-    color: black;
-    background-color: var(--secondary-color);
-    font-size: large;
-    padding: 15px 30px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
-
-.home-grid a:hover{
-    background-color: var(--accent2-color);
-    color: var(--primary-color)
-}
-
-.events-link{
-    padding: 15px 65px;
-}
-
-.red-line{
-    width: 80%;    height: 10px;
-    background-color: #A42212;
-    margin: auto;
-    border-style: solid;
-}
-
-
-
-h1{
-    text-align: center;
-    font-family: var(--heading-font);
-    letter-spacing: .3em;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.content{
-    font-family: var(--paragraph-font);
-    font-size: large;
-    line-height: 2em;
-    text-align: left;
-    padding: 40px 40px;
-}
-
-.hero{
-    width: 100%;
-    align-items: center; 
-    justify-content: space-around;
-    margin-top: 40px;
-    display: flex;
-    margin-bottom: 40px;
-    
-}
-
-.kit{
-    width: 100%;
-    margin-top: 40px;
-    margin-bottom: 30px;
-}
-
-
-.bottom_grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-}
-
-.bottom_title{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-align: center;
-
-}
-
-.map{
-    grid-column: 1/2;
-    max-width: 100%;
-    height: 300px;
-
-}
-
-
-
-.middle_text{
-    grid-column: 2/3;
-    margin-top: 0;
-    max-width: fit-content;
-    font-size: large;
-    align-content: center;
-}
-
-.display{
-    grid-column:  3/4;
-    width: 80%;
-    align-content: center;
-    padding-left: 100px;
-    height: 300px;
-
-}
-
