@@ -52,6 +52,7 @@ header{
     max-width: fit-content;
     grid-column: 1/2;
     padding-left: 20px;
+    align-items: center;
 
 }
 
@@ -369,6 +370,14 @@ footer img:hover{
 
    header{
     background-color: none;
+   }
+   
+   .display{
+    display: none;
+   }
+
+   .bottom_grid{
+    display: block;
    }
 }
 
