@@ -24,6 +24,7 @@ a{
     line-height: 2em;
     text-align: left;
     padding: 40px 40px;
+    max-width: 1900px;
 }
 
 
@@ -231,6 +232,10 @@ h1{
     width: 50%;
 }
 
+.slide-img{
+    height: 500px;
+}
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -309,6 +314,7 @@ h1{
   to {opacity: 1}
 }
 
+
 /*footer*/
 
 footer{
@@ -349,3 +355,18 @@ footer img:hover{
     font-family: var(--heading-font);
     text-align: center;
 }
+
+@media screen and (max-width: 900px) {
+    .home-grid {
+       display: block;
+       height: auto;
+   }
+   nav, footer {
+       flex-direction: column;
+   }
+
+   header{
+    background-color: none;
+   }
+}
+
