@@ -98,7 +98,7 @@ header img:hover{
 
 nav a{
     color: var(--accent1-color);
-    padding: 1em;
+    
     letter-spacing: 1px;
     font-size: 20px;}
 
