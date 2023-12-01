@@ -25,7 +25,6 @@ a{
     font-size: large;
     line-height: 2em;
     text-align: left;
-    padding: 20px 20px;
     max-width: 1900px;
 }
 
@@ -375,10 +374,6 @@ footer img:hover{
    }
    nav, footer {
        flex-direction: column;
-   }
-
-   header{
-    background-color: none;
    }
    
    .display{
