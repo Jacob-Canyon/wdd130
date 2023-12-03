@@ -338,9 +338,6 @@ footer{
     width: 100%;
 }
 
-footer p{
-    margin: 0;
-}
 
 footer img{
     transition: all 0.2s ease-in;
