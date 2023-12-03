@@ -338,6 +338,10 @@ footer{
     width: 100%;
 }
 
+footer p{
+    margin: 0;
+}
+
 footer img{
     transition: all 0.2s ease-in;
 }
@@ -355,7 +359,6 @@ footer img:hover{
 .footer-logos{
     height: 40px;
     width: 40px;
-    margin: auto;
     align-content: center;
 }
 
