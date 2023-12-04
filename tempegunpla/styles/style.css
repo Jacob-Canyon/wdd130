@@ -28,9 +28,13 @@ a{
     max-width: 1900px;
 }
 
+main{
+    margin: 2em;
+}
 
 
-/*Header*/
+
+/*---------------------------------------Header-------------------------------------*/
 
 
 
@@ -82,11 +86,10 @@ header img:hover{
     justify-content: space-evenly;
     font-size: small;
   
- 
-
-  
 
 }
+
+
 .header-links a:hover{
     background-color: var(--primary-color);
     color: black;
@@ -102,7 +105,9 @@ nav a{
     font-size: 20px;}
 
 
-/*Home Page*/
+
+
+/*----------------------------------Home Page-------------------------------------------*/
 
 
 
@@ -111,10 +116,15 @@ p{
     font-size: 1.5em;
 }
 
+.leadpara{
+    margin-top: 70px;
+}
+
 
 .home-grid{
     display: grid;
     grid-template-columns: 1fr;
+    
 }
 
 .home-grid a{
@@ -153,8 +163,8 @@ h1{
     text-align: center;
     font-family: var(--heading-font);
     letter-spacing: .3em;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 70px;
+    margin-bottom: 70px;
     width: 100%;
 }
 
@@ -181,7 +191,7 @@ h1{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     width: 100%;
-   justify-items: center;
+    justify-items: center;
   
 }
 
@@ -221,7 +231,10 @@ h1{
 
 }
 
-/*beginners guide*/
+
+/*-------------------------beginners guide-----------------------------------*/
+
+
 
 .guide-grid{
     grid-template-columns: 1fr;
@@ -325,7 +338,76 @@ h1{
 }
 
 
-/*footer*/
+
+
+
+/* ------------------events page ------------------------------------------------*/
+
+
+
+
+.events-grid{
+    grid-template-columns: 1fr; 
+    display: grid;
+}
+
+.events-hero{
+    grid-column: 1/4;
+    width: 100%;
+    margin-top: 70px;
+
+}
+
+.center-events-grid{
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+}
+
+
+.build{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.build-img{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 500px;
+    height: 500px;
+    margin: 1em;
+}
+
+.build-text{
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.contest{
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+
+.contest-img{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    width: 500px;
+    height: 500px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.contest-text{
+    grid-column: 2/4;
+    grid-row: 4/5;
+}
+
+.build .contest{
+    margin: 1em;
+    font-size: 2em;
+}
+
+
+/*------------------------------------------footer------------------------------------------------*/
 
 footer{
     display: flex; 
@@ -365,6 +447,8 @@ footer img:hover{
     font-family: var(--heading-font);
     text-align: center;
 }
+
+/*--------------------------------media screnen----------------------------*/
 
 @media screen and (max-width: 900px) {
     .home-grid {
