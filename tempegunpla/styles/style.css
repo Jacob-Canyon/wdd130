@@ -20,7 +20,7 @@ a{
 
 
 .content{
-    margin: 0 auto;
+    margin: 20px auto;
     font-family: var(--paragraph-font);
     font-size: large;
     line-height: 2em;
@@ -49,6 +49,7 @@ header{
     align-items: center;
     padding-right: 15px;
     padding-left: 15px;
+
     
 }
 
@@ -221,6 +222,7 @@ h1{
     font-size: large;
     align-content: center;
     font-size: 1.5em;
+    height: auto;
 }
 
 .display{
@@ -355,18 +357,21 @@ h1{
     grid-column: 1/4;
     width: 100%;
     margin-top: 70px;
+    margin-bottom: 70px;
 
 }
 
 .center-events-grid{
     grid-template-columns: 1fr 1fr 1fr;
     display: grid;
+    margin-bottom: 70px;
 }
 
 
 .build{
     grid-column: 2/3;
     grid-row: 1/2;
+    margin-left: 1em;
 }
 
 .build-img{
@@ -374,17 +379,20 @@ h1{
     grid-row: 2/3;
     width: 500px;
     height: 500px;
-    margin: 1em;
+    
 }
 
 .build-text{
     grid-column: 2/4;
     grid-row: 2/3;
+    margin-top: -.2em;
 }
 
 .contest{
     grid-column: 2/4;
     grid-row: 3/4;
+    margin-left: 1em;
+    margin-top: 70px;
 }
 
 .contest-img{
@@ -392,13 +400,12 @@ h1{
     grid-row: 4/5;
     width: 500px;
     height: 500px;
-    margin-top: 1em;
-    margin-bottom: 1em;
 }
 
 .contest-text{
     grid-column: 2/4;
     grid-row: 4/5;
+    margin-top: -.2em;
 }
 
 .build .contest{
@@ -418,6 +425,11 @@ footer{
     font-family: var(--paragraph-font);
     border-style: solid;
     width: 100%;
+}
+
+footer p{
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 
 
