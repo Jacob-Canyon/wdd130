@@ -386,6 +386,7 @@ h1{
     grid-row: 2/3;
     width: 500px;
     height: 500px;
+    margin: 1em;
     
 }
 
@@ -393,7 +394,7 @@ h1{
     grid-column: 2/4;
     grid-row: 2/3;
     margin-top: -.2em;
-    justify-content: center;
+    width: 100%;
 }
 
 .contest{
@@ -409,12 +410,14 @@ h1{
     grid-row: 4/5;
     width: 500px;
     height: 500px;
+    margin: 1em;
 }
 
 .contest-text{
     grid-column: 2/4;
     grid-row: 4/5;
     margin-top: -.2em;
+    width: 100%;
 }
 
 .build .contest{
