@@ -35,6 +35,7 @@ main{
 p{
     margin: 1em;
     font-size: 1.5em;
+
 }
 
 
@@ -369,6 +370,7 @@ h1{
     grid-template-columns: 1fr 1fr 1fr;
     display: grid;
     margin-bottom: 70px;
+    margin-top: 70px;
 }
 
 
@@ -376,6 +378,7 @@ h1{
     grid-column: 2/3;
     grid-row: 1/2;
     margin-left: 1em;
+    margin-top: 140px;
 }
 
 .build-img{
@@ -390,13 +393,15 @@ h1{
     grid-column: 2/4;
     grid-row: 2/3;
     margin-top: -.2em;
+    justify-content: center;
 }
 
 .contest{
     grid-column: 2/4;
     grid-row: 3/4;
     margin-left: 1em;
-    margin-top: 70px;
+    margin-top: 140px;
+    
 }
 
 .contest-img{
@@ -413,7 +418,7 @@ h1{
 }
 
 .build .contest{
-    margin: 1em;
+
     font-size: 2em;
 }
 
@@ -481,6 +486,10 @@ footer img:hover{
 
    .bottom_grid{
     display: block;
+   }
+
+   .build-img, .contest-img{
+    display: none;
    }
 }
 
